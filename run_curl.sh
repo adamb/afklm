@@ -10,9 +10,8 @@ curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' 
 -H "API-Key: ${API_KEY}" \
 -H 'Content-Type: application/json' \
 -d '{
-  "commercialCabin": "PREMIUM",
-  "bookingFlow": "LEISURE",
-  "promoType": "LOWEST_FARE",
+  "commercialCabin": "BUSINESS",
+  "bookingFlow": "REWARD",
   "passengers": [
     {
       "id": 1,
@@ -22,26 +21,16 @@ curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' 
   "requestedConnections": [
     {
       "origin": {
-        "code": "MIA",
-        "type": "AIRPORT"
-      },
-      "destination": {
-        "code": "CDG",
-        "type": "AIRPORT"
-      }
-    },
-    {
-      "origin": {
         "code": "CDG",
         "type": "AIRPORT"
       },
       "destination": {
-        "code": "MIA",
+        "code": "JFK",
         "type": "AIRPORT"
       }
     }
   ],
-  "dateInterval": "2024-02-28/2024-09-28",
+  "dateInterval": "2024-08-01/2024-08-08",
   "filters": {
     "marketingCarriers": [
       "AF"
