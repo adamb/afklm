@@ -34,6 +34,10 @@ To run the `run_test.sh` script:
 ./run_test.sh
 ```
 
+## API Reference
+
+For more details on the API used in this project, refer to the [Air France KLM Best Fare Offers API](https://developer.airfranceklm.com/products/api/offers/api-reference#tag/best-fare-offers).
+
 ## License
 
 This project is licensed under the MIT License.

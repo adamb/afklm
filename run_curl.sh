@@ -9,7 +9,7 @@ curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' 
 -d '{
   "commercialCabin": "PREMIUM",
   "bookingFlow": "LEISURE",
-  "promoType": "LOWEST_FARE",
+  "promoType": "AWARD_TICKET",
   "passengers": [
     {
       "id": 1,
