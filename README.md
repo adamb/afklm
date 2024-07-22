@@ -1,6 +1,9 @@
-# Project Title
+# Air France KLM FF Ticket search
 
 This project contains scripts to interact with the Air France KLM API.
+
+The hope is that I can create a search that will look for frequent flyer tickets in 
+a date range.  Eventually alerting me when those tickets drop below some point cost
 
 ## Files
 
