@@ -2,9 +2,11 @@
 
 # Replace the following line with your actual curl command
 
+API_KEY=${API_KEY:-YOUR_API_KEY}
+
 curl -X POST 'https://api.airfranceklm.com/travel/offers/v1/best-fare-offers' \
 -H 'accept: application/json' \
--H 'api-key: YOUR_API_KEY' \
+-H "api-key: $API_KEY" \
 -H 'Content-Type: application/json' \
 -d '{
   "commercialCabin": "PREMIUM",
