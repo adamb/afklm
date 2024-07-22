@@ -4,7 +4,7 @@
 
 curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' \
 -H 'accept: application/json' \
--H 'api-key: YOUR_API_KEY' \
+-H "API-Key: ${API_KEY}" \
 -H 'Content-Type: application/json' \
 -d '{
   "commercialCabin": "PREMIUM",
