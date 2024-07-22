@@ -38,7 +38,7 @@ curl -X POST 'https://api.airfranceklm.com/travel/offers/v1/best-fare-offers' \
       }
     }
   ],
-  "dateInterval": "2024-02-28/2024-09-28",
+  "dateInterval": "2004-08-01/2004-08-08",
   "filters": {
     "marketingCarriers": [
       "AF"
