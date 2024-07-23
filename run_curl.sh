@@ -5,7 +5,7 @@
 
 # Replace the following line with your actual curl command
 
-curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' \
+response=$(curl -s -o response.json -w "%{http_code}" -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' \
 -H 'accept: application/json' \
 -H "API-Key: ${API_KEY}" \
 -H 'Content-Type: application/json' \
@@ -36,6 +36,16 @@ curl -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' 
       "AF"
     ]
   }
-}'
+}')
+
+if [ "$response" -ne 200 ]; then
+  echo "Error: Received HTTP status code $response"
+  cat response.json
+else
+  cat response.json
+fi
+
+# Clean up
+rm response.json
 
 
