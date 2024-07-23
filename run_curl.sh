@@ -56,7 +56,7 @@ else
     echo "Error: lowestFareOffers link is null"
   else
     echo "To fetch the lowest fare offers URL, use the following curl command:"
-    echo "curl -H \"API-Key: YOUR_KEY_HERE\" -H 'Accept: application/json' \"${lowest_fare_link}\""
+    echo "curl -H \"API-Key: ${API_KEY}\" -H 'Accept: application/json' \"${lowest_fare_link}\""
   fi
 fi
 
