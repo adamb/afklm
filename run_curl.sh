@@ -6,7 +6,7 @@
 # Replace the following line with your actual curl command
 
 response=$(curl -s -o response.json -w "%{http_code}" -X POST 'https://api.airfranceklm.com/opendata/offers/v1/best-fare-offers' \
--H 'accept: application/json' \
+-H 'Accept: application/json' \
 -H "API-Key: ${API_KEY}" \
 -H 'Content-Type: application/json' \
 -d '{
