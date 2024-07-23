@@ -30,8 +30,8 @@ response=$(curl -s -D headers.txt -o response.json -w "%{http_code}" -X POST 'ht
         "code": "PAR"
       },
       "destination": {
-        "type": "AIRPORT",
-        "code": "EWR"
+        "type": "CITY",
+        "code": "NYC"
       }
     }
   ],
@@ -50,7 +50,8 @@ else
   echo "Full JSON Response:"
   cat response.json | jq
 
-  lowest_fare_link=$(jq -r '.bestOffers[0]._links.lowestFareOffers.href' response.json)
+  lowest_fare_link=$(jq -r '.recommendations[0].flightProducts[0].connections[0]._links.availableOffers.href' response.json)
+  
   echo "Extracted lowestFareOffers link: ${lowest_fare_link}"
 
   if [ -z "$lowest_fare_link" ]; then

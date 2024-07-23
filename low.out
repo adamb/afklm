@@ -1,0 +1,826 @@
+Full JSON Response:
+{
+  "recommendations": [
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 134000,
+            "adjustedDisplayPrice": 134000,
+            "totalPrice": 134000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 134000,
+                "displayPrice": 134000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 0,
+              "numberOfSeatsAvailable": 2,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "I",
+                  "fareBasisCode": "IWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 134000,
+                "adjustedDisplayPrice": 134000,
+                "totalPrice": 134000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 134000,
+                    "displayPrice": 134000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgBO8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==30e9270cede{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 72000,
+            "adjustedDisplayPrice": 72000,
+            "totalPrice": 72000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 72000,
+                "displayPrice": 72000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 1,
+              "numberOfSeatsAvailable": 1,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "Z",
+                  "fareBasisCode": "ZWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 72000,
+                "adjustedDisplayPrice": 72000,
+                "totalPrice": 72000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 72000,
+                    "displayPrice": 72000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgDO8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==2d9a4c47749{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 72000,
+            "adjustedDisplayPrice": 72000,
+            "totalPrice": 72000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 72000,
+                "displayPrice": 72000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 2,
+              "numberOfSeatsAvailable": 1,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "Z",
+                  "fareBasisCode": "ZWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 72000,
+                "adjustedDisplayPrice": 72000,
+                "totalPrice": 72000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 72000,
+                    "displayPrice": 72000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgAu8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==e4b9caee549{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 134000,
+            "adjustedDisplayPrice": 134000,
+            "totalPrice": 134000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 134000,
+                "displayPrice": 134000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 3,
+              "numberOfSeatsAvailable": 5,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "I",
+                  "fareBasisCode": "IWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 134000,
+                "adjustedDisplayPrice": 134000,
+                "totalPrice": 134000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 134000,
+                    "displayPrice": 134000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgCu8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==049af15e6ef{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 134000,
+            "adjustedDisplayPrice": 134000,
+            "totalPrice": 134000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 134000,
+                "displayPrice": 134000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 4,
+              "numberOfSeatsAvailable": 9,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "I",
+                  "fareBasisCode": "IWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 134000,
+                "adjustedDisplayPrice": 134000,
+                "totalPrice": 134000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 134000,
+                    "displayPrice": 134000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgBu8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==de1ad9f8639{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 134000,
+            "adjustedDisplayPrice": 134000,
+            "totalPrice": 134000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 134000,
+                "displayPrice": 134000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 5,
+              "numberOfSeatsAvailable": 2,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "I",
+                  "fareBasisCode": "IWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 134000,
+                "adjustedDisplayPrice": 134000,
+                "totalPrice": 134000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 134000,
+                    "displayPrice": 134000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgoWtgDu8eVEPGToFlKqxSBReptSjjU1BFfpHOaIoQbblYRN0PdS2kPxtbG1sLAA==69468b949f9{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    },
+    {
+      "flightProducts": [
+        {
+          "passengers": [
+            {
+              "id": 1,
+              "type": "ADT"
+            }
+          ],
+          "priceInMiles": {
+            "displayPrice": 134000,
+            "adjustedDisplayPrice": 134000,
+            "totalPrice": 134000,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "fare": 134000,
+                "displayPrice": 134000,
+                "primaryPax": true
+              }
+            ],
+            "currency": "MILES",
+            "displayType": "FARE_MILES"
+          },
+          "taxDetails": {
+            "totalPrice": 383.5,
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 383.5,
+                "products": 0,
+                "displayPrice": 0,
+                "primaryPax": true
+              }
+            ],
+            "currency": "USD"
+          },
+          "connections": [
+            {
+              "connectionId": 6,
+              "numberOfSeatsAvailable": 9,
+              "segments": [
+                {
+                  "cabinClassCode": "C",
+                  "sellingClassCode": "I",
+                  "fareBasisCode": "IWSFB0JY"
+                }
+              ],
+              "commercialCabin": "BUSINESS",
+              "commercialCabinLabel": "Business",
+              "priceInMiles": {
+                "displayPrice": 134000,
+                "adjustedDisplayPrice": 134000,
+                "totalPrice": 134000,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "fare": 134000,
+                    "displayPrice": 134000,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "MILES",
+                "displayType": "FARE_MILES"
+              },
+              "taxDetails": {
+                "totalPrice": 383.5,
+                "adjustedTotalPrice": 383.5,
+                "pricePerPassengerTypes": [
+                  {
+                    "passengerType": "ADT",
+                    "taxes": 383.5,
+                    "products": 0,
+                    "displayPrice": 0,
+                    "primaryPax": true
+                  }
+                ],
+                "currency": "USD"
+              },
+              "_links": {
+                "availableOffers": {
+                  "href": "https://api.airfranceklm.com/opendata/offers/b/v3/available-offers?d=q0YZSoWGM0rrthrYMTSEVj2gIhuoG2PoMBpcTMdiVgFgO7D1ICASmN1dA0QzBKIEe_8PIoe9JVmNNlRlZGBkomtgAUTw7kE1ZOwUWKbCKlVwkVqLMj4FVeQX6YymCNGWi0XU_VDXQvqzsbWxtQA=19b145f6768{&commercialCabin,withUpsellCabins,displayPriceContent,negotiatedFareOnly}",
+                  "templated": true
+                }
+              }
+            }
+          ],
+          "type": "DAY"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    [
+      {
+        "id": 0,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-02/2024-08-02",
+        "departureDate": "2024-08-02",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "Newark Liberty International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "EWR"
+        },
+        "duration": 485
+      },
+      {
+        "id": 1,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-03/2024-08-03",
+        "departureDate": "2024-08-03",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "John F. Kennedy International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "JFK"
+        },
+        "duration": 495
+      },
+      {
+        "id": 2,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-04/2024-08-04",
+        "departureDate": "2024-08-04",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "Newark Liberty International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "EWR"
+        },
+        "duration": 485
+      },
+      {
+        "id": 3,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-05/2024-08-05",
+        "departureDate": "2024-08-05",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "John F. Kennedy International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "JFK"
+        },
+        "duration": 480
+      },
+      {
+        "id": 4,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-06/2024-08-06",
+        "departureDate": "2024-08-06",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "John F. Kennedy International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "JFK"
+        },
+        "duration": 480
+      },
+      {
+        "id": 5,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-07/2024-08-07",
+        "departureDate": "2024-08-07",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "John F. Kennedy International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "JFK"
+        },
+        "duration": 480
+      },
+      {
+        "id": 6,
+        "dateVariation": 0,
+        "dateInterval": "2024-08-08/2024-08-08",
+        "departureDate": "2024-08-08",
+        "origin": {
+          "name": "Paris-Charles de Gaulle airport",
+          "city": {
+            "name": "Paris",
+            "code": "PAR"
+          },
+          "code": "CDG"
+        },
+        "destination": {
+          "name": "John F. Kennedy International Airport",
+          "city": {
+            "name": "New York",
+            "code": "NYC"
+          },
+          "code": "JFK"
+        },
+        "duration": 480
+      }
+    ]
+  ],
+  "disclaimer": {
+    "fareMilesText": "* Please note: airport taxes and security charges are not covered by your Miles and must be paid separately. The same applies for carrier-imposed surcharges. For flights within Europe operated by Air France, KLM and HOP!, no additional carrier-imposed surcharges apply. The exact cost will be shown in the trip overview after you have selected your flight.",
+    "fareMilesTextRJF": [
+      {
+        "type": "paragraph",
+        "depth": 1,
+        "text": "* Please note: airport taxes and security charges are not covered by your Miles and must be paid separately. The same applies for carrier-imposed surcharges. For flights within Europe operated by Air France, KLM and HOP!, no additional carrier-imposed surcharges apply. The exact cost will be shown in the trip overview after you have selected your flight."
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.airfranceklm.com/opendata/offers/b/v3/lowest-fare-offers?d=bZgxDoAgDEVPRETiwM7ubkxP0nB3KS1UaDcTKhVMfv9_uBBYuefF72ILkacMIxLx9rYhjq-qItjJQM2MQa9e0uif5MOkIf1qXLjYz5K85ntP3AhYiukKMYeYZqBARrJNhccY7iJcF-wlRfdTtiJ1f7ARPG11zMf8sxRyJA7QQP-p70uCbLIuWRUmrFA_9a1abb9e2b6&dateInterval={dateInterval}{&type,commercialCabin,displayPriceContent,negotiatedFareOnly}",
+      "templated": true
+    }
+  }
+}
+Extracted lowestFareOffers link: null
+To fetch the lowest fare offers URL, use the following curl command:
+curl -H "API-Key: YOUR_KEY_HERE" -H 'Accept: application/json' "null"
