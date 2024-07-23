@@ -12,9 +12,10 @@ When I search for reward fares the first week of August, it's saying 50,000 mile
 
 Also, if I try to use the response link it says I'm over Qps but I wait for a few minutes and try that curl again and still get the error.  
 
-
- % curl -H "API-Key: XXX" -H 'Accept: application/json' "https://api.airfranceklm.com/opendata/offers/b/v1/lowest-fare-offers?d=q0YZgYWGM0p7txrYiTSEVkagQhyoG2PEMRpRKsZi1gxgizBa6LXYuhoQpfC2CYSLvbsIkcPevKyGdgyqIUOrzi7usOoUHqG1KENYUIVebt5YFCJac7GI2h_qNEhfNxYUpGBtkDwMH0apxtZDdXRTiq3F6LuCmh7QEVOwAgA=6e2b4587519&dateInterval=2024-08-01/2024-08-08{&type,commercialCabin,displayPriceContent}"
+```bash
+% curl -H "API-Key: XXX" -H 'Accept: application/json' "https://api.airfranceklm.com/opendata/offers/b/v1/lowest-fare-offers?d=q0YZgYWGM0p7txrYiTSEVkagQhyoG2PEMRpRKsZi1gxgizBa6LXYuhoQpfC2CYSLvbsIkcPevKyGdgyqIUOrzi7usOoUHqG1KENYUIVebt5YFCJac7GI2h_qNEhfNxYUpGBtkDwMH0apxtZDdXRTiq3F6LuCmh7QEVOwAgA=6e2b4587519&dateInterval=2024-08-01/2024-08-08{&type,commercialCabin,displayPriceContent}"
 <h1>Developer Over Qps</h1><h1>Developer Over Qps</h1>%
+```
 
 
 
