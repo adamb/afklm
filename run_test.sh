@@ -7,19 +7,21 @@ response=$(curl -s -D headers.txt -o response.json -w "%{http_code}" --location 
      --header "API-Key: ${API_KEY}" \
      --header 'Content-Type: application/x-www-form-urlencoded')
 
-if [ "$response" -ne 200 ]; then
-  echo "Error: Received HTTP status code $response"
-  echo "Response Headers:"
-  cat headers.txt
-  echo "Response Body:"
-  cat response.json
-else
-  echo "Response Headers:"
-  cat headers.txt
-  echo "Response Body:"
-  cat response.json
-fi
+{
+  if [ "$response" -ne 200 ]; then
+    echo "Error: Received HTTP status code $response"
+    echo "Response Headers:"
+    cat headers.txt
+    echo "Response Body:"
+    cat response.json
+  else
+    echo "Response Headers:"
+    cat headers.txt
+    echo "Response Body:"
+    cat response.json
+  fi
 
-# Clean up
-rm headers.txt
-rm response.json
+  # Clean up
+  rm headers.txt
+  rm response.json
+} > test.out
