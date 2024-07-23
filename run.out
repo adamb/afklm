@@ -1,0 +1,57 @@
+Full JSON Response:
+{
+  "bestOffers": [
+    {
+      "connections": [
+        {
+          "origin": {
+            "code": "CDG",
+            "type": "AIRPORT"
+          },
+          "destination": {
+            "code": "JFK",
+            "type": "AIRPORT"
+          },
+          "commercialCabin": "BUSINESS",
+          "promoFare": false
+        }
+      ],
+      "priceInMiles": {
+        "displayPrice": 50000,
+        "totalPrice": 50000,
+        "pricePerPassengers": [
+          {
+            "id": 1,
+            "passengerType": "ADT",
+            "fare": 50000
+          }
+        ],
+        "currency": "MILES",
+        "displayType": "FARE_MILES"
+      },
+      "taxDetails": {
+        "totalPrice": 383.5,
+        "pricePerPassengers": [
+          {
+            "id": 1,
+            "passengerType": "ADT",
+            "taxes": 383.5
+          }
+        ],
+        "currency": "USD"
+      },
+      "_links": {
+        "lowestFareOffers": {
+          "href": "https://api.airfranceklm.com/opendata/offers/b/v1/lowest-fare-offers?d=q0YZgYWGM0p7txrYiTSEVkagQhyoG2PEMRpRKsZi1gxgizBa6LXYuhoQpfC2CYSLvbsIkcPevKyGdgyqIUOrzi7usOoUHqG1KENYUIVebt5YFCJac7GI2h_qNEhfNxYUpGBtkDwMH0apxtZDdXRTiq3F6LuCmh7QEVOwAgA=6e2b4587519&dateInterval=2024-08-01/2024-08-08{&type,commercialCabin,displayPriceContent}",
+          "templated": true
+        },
+        "ticketConditions": {
+          "href": "https://api.airfranceklm.com/opendata/offers/b/v1/flight-products/7VjBatwwEP2VMmc3yOs1OLptNrhlG5rAbigh7qE0KRhKUkoOgcX_3vdGki3Z3k2g5BbYw3pmJI1mRqP3tJdjjVLs7V7mMJNYJ49QM0X7Rtq7RmyeNTK5TSBvULa7RjqxcvltW5-ZzY10XSaTEp-fn6ZzkPa_vWE4OPksDNQgTBuyit2Fi-2E5Nn1-SfJJAKusXJTf1HlCPnCZGEWy4-mwm9nKlsYa8yJMQbWI6KV2uYmsR0wHfc_xjyU_VSdrGrpgrnrrhBijgXFMxCFQxOKmM6VSc-BKGj_fqgZxXvOFjGpYHxg3ZgNskIYqpg0iDWZ9Bg_8qAoTxkox2bxfVYyGAcvP7phcgn5ftvSVtoJ4RoeBcCMT7SvTCLE4mvwOyM5ZYxi9bDqCKIhOpRCJUpQBZr2CKEGwyn4osb7zL9674gtkQtM09HzKbJFAqDLJDd-qYgW8_PJ7U17NzbiKWKUqOstO9DrPPqlUUHZ6bND5GPOavfJO4eH7W_dvbbUsRX38fTjOZIXVXFScvgfx4cilRlqEPf-SPE4xDmSPjw-gHAjQyy0XbKQW3yOsvbZnKVmXnsgAblPDyvlIIR9b03vrektWtPwtMFTXm_WF6stkB7Mj0D8I1d5_yLHwAREmizU3rti9tFM1uyfHMQuSoRfnwVhFOCml3wezJY4-Dw3MRvWDtkTXF2svWMsp6FkcgCP3dFL-SdneWlY1F3AriD1IBLl4AgXo-DhJkumf6qFvKryZZFDHF4UIPt6s17VplpdSfcP59eca4305e6/ticket-conditions"
+        }
+      }
+    }
+  ]
+}
+Extracted lowestFareOffers link: https://api.airfranceklm.com/opendata/offers/b/v1/lowest-fare-offers?d=q0YZgYWGM0p7txrYiTSEVkagQhyoG2PEMRpRKsZi1gxgizBa6LXYuhoQpfC2CYSLvbsIkcPevKyGdgyqIUOrzi7usOoUHqG1KENYUIVebt5YFCJac7GI2h_qNEhfNxYUpGBtkDwMH0apxtZDdXRTiq3F6LuCmh7QEVOwAgA=6e2b4587519&dateInterval=2024-08-01/2024-08-08{&type,commercialCabin,displayPriceContent}
+To fetch the lowest fare offers URL, use the following curl command:
+curl -H "API-Key: YOUR_KEY_HERE" -H 'Accept: application/json' "https://api.airfranceklm.com/opendata/offers/b/v1/lowest-fare-offers?d=q0YZgYWGM0p7txrYiTSEVkagQhyoG2PEMRpRKsZi1gxgizBa6LXYuhoQpfC2CYSLvbsIkcPevKyGdgyqIUOrzi7usOoUHqG1KENYUIVebt5YFCJac7GI2h_qNEhfNxYUpGBtkDwMH0apxtZDdXRTiq3F6LuCmh7QEVOwAgA=6e2b4587519&dateInterval=2024-08-01/2024-08-08{&type,commercialCabin,displayPriceContent}"

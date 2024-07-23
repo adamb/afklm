@@ -46,18 +46,17 @@ if [ "$response" -ne 200 ]; then
   echo "Response Body:"
   cat response.json | jq
 else
-  cat response.json | jq
   echo "Full JSON Response:"
   cat response.json | jq
 
-  lowest_fare_link=$(jq -r '._links.lowestFareOffers.href' response.json)
+  lowest_fare_link=$(jq -r '.bestOffers[0]._links.lowestFareOffers.href' response.json)
   echo "Extracted lowestFareOffers link: ${lowest_fare_link}"
 
   if [ -z "$lowest_fare_link" ]; then
     echo "Error: lowestFareOffers link is null"
   else
     echo "To fetch the lowest fare offers URL, use the following curl command:"
-    echo "curl -H \"API-Key: ${API_KEY}\" -H 'Accept: application/json' \"${lowest_fare_link}\""
+    echo "curl -H \"API-Key: YOUR_KEY_HERE\" -H 'Accept: application/json' \"${lowest_fare_link}\""
   fi
 fi
 
