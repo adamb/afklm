@@ -1,2 +1,3 @@
 .aider*
 !run_curl.sh
+!run_low.js

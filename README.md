@@ -26,6 +26,16 @@ Also, if I try to use the response link it says I'm over Qps but I wait for a fe
 
 ## Usage
 
+### Setting up the environment
+
+Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+
+Install the required package:
+
+```bash
+npm install node-fetch
+```
+
 ### Setting the API Key
 
 Before running the scripts, set the API key as an environment variable:
@@ -46,6 +56,12 @@ To run the `run_test.sh` script:
 
 ```bash
 ./run_test.sh
+```
+
+To run the `run_low.js` script:
+
+```bash
+node run_low.js
 ```
 
 ## API Reference
