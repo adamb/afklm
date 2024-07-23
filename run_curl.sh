@@ -45,11 +45,11 @@ if [ "$response" -ne 200 ]; then
   cat headers.txt
   echo "Response Body:"
   cat response.json | jq
+else
+  cat response.json | jq
   link=$(jq -r '._links.self.href' response.json)
   echo "To fetch the URL, use the following curl command:"
   echo "curl -H \"API-Key: ${API_KEY}\" -H 'Accept: application/json' \"${link}\""
-else
-  cat response.json | jq
 fi
 
 # Clean up
