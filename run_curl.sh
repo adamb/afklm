@@ -46,7 +46,7 @@ if [ "$response" -ne 200 ]; then
   echo "Response Body:"
   cat response.json | jq
 else
-  cat response.json
+  cat response.json | jq
 fi
 
 # Clean up
