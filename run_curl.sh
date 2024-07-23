@@ -9,6 +9,7 @@ response=$(curl -s -D headers.txt -o response.json -w "%{http_code}" -X POST 'ht
 -H 'Accept: application/json, text/plain, */*' \
 -H "API-Key: ${API_KEY}" \
 -H 'Content-Type: application/json' \
+-H 'AFKL-TRAVEL-Host: your_host_here' \
 -d '{
   "commercialCabin": "BUSINESS",
   "bookingFlow": "REWARD",
