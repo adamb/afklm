@@ -13,7 +13,7 @@ response=$(curl -s -D headers.txt -o response.json -w "%{http_code}" --location 
     echo "Response Headers:"
     cat headers.txt
     echo "Response Body:"
-    cat response.json
+    cat response.json | jq
   else
     echo "Response Headers:"
     cat headers.txt

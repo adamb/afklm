@@ -44,7 +44,7 @@ if [ "$response" -ne 200 ]; then
   echo "Response Headers:"
   cat headers.txt
   echo "Response Body:"
-  cat response.json
+  cat response.json | jq
 else
   cat response.json
 fi
